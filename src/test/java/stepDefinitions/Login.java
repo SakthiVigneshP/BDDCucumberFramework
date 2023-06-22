@@ -18,7 +18,7 @@ import io.cucumber.java.en.When;
 
 public class Login {
 	WebDriver driver = null;
-	
+/*	
 	@Before
 	public void setUp() {
 		//System.setProperty("webdriver.edge.driver", "C:\\Users\\sakth\\BDD_Cucumber_framework\\BDDCucumber\\driver\\msedgedriver.exe");
@@ -70,5 +70,7 @@ public class Login {
 
 	    
 	}
+	
+	*/
 
 }
