@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(glue = "stepDefinitions",features="feature",
+@CucumberOptions(glue = "fast.common.glue",features="feature",
 tags= "@loginApp",
 plugin= {"pretty","html:src\\test\\resources\\rep1.html",
 		"json:src\\test\\resources\\rep2.json"
